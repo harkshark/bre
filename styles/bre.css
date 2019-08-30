@@ -1,0 +1,55 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bre-nav {
+  background-color: white !important;
+}
+
+.bre-nav .nav-link {
+  font-size: 24px;
+}
+
+.bre-jumbotron {
+  background-image: url('../media/jumbo-mountains.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.bre-jumbotron h1 {
+  color: white;
+}
+
+.bre-home > div {
+  border: 2px solid magenta !important;
+}
+
+img.bre-image {
+  width: 100%;
+}
+
+.bre-footer {
+  background-color: black;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.bre-footer p {
+  color: white;
+}
+
+
+/* Utilities */
+.underline {
+  text-decoration: underline !important;
+}
+
+/* Overrides */
+.card-img-top {
+  border-radius: 0;
+}
+
+hr {
+  margin: 40px 0;
+}
+
